@@ -1,0 +1,55 @@
+
+    html{
+            background: linear-gradient(#E6F4FC, #F9DBE7);
+            min-height: 100%;
+        }
+        body{
+            font-family: 'Avenir', 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #A90140;
+            
+        }
+        button{
+            font-family: 'Avenir', 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            border-radius: 5px;
+            box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 20px 0 rgba(0,0,0,0.19);
+            background: linear-gradient(#559AF1, #4D8BD9);
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 16px;
+            outline: none;
+            margin: 10px;
+        }
+        button:hover{
+            font-family: 'Avenir', 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            border-radius: 5px;
+            box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 12px 30px 0 rgba(0,0,0,0.19);
+            background: linear-gradient(#4D8BD9, #559AF1);
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 16px;
+            outline: none;
+            margin: 10px;
+
+        }
+        .box{
+            max-width:800px;
+            padding: 30px;
+
+        }
+        .doc{
+            width: 100%;
+            height: auto;
+        }
+        .id{
+            max-width:800px;
+            padding: 30px;
+            background: #4D8BD9;
+            color: white; 
+            font-size: 28px;
+            border-radius: 5px;
+            box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 12px 30px 0 rgba(0,0,0,0.19);
+}
