@@ -46,6 +46,7 @@
         }
         .id{
             max-width:800px;
+            max-height:400px;
             padding: 30px;
             background: #4D8BD9;
             color: white; 
