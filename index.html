@@ -10,9 +10,32 @@
 		<div class="box" style="">
 			<img src="SNHS Logo Black.png" style="width:304px;height:304px;">
 			<h1>Spanish Honor Society</h1>
-			<a href=""><button type="button">About</button></a>
+			<a id="displayText" href="javascript:toggle();"><button type="button">About</button></a>
 			<a href="http://google.com" target="_blank"><button type="button">Volunteer Opportunities</button></a>
 			<a href="http://x2vol.com" target="_blank"><button type="button">Log Hours</button></a>
+		</div>
+
+		<script language="javascript"> 
+			function toggle() {
+				var ele = document.getElementById("toggleText");
+				var text = document.getElementById("displayText");
+				if(ele.style.display == "block") {
+    				ele.style.display = "none";
+  				}
+				else {
+					ele.style.display = "block";
+				}
+			} 
+		</script>
+		<div id="toggleText" style="display: none">
+			<div class="id" style="">
+				About SHS
+				<p align="left"><font size="3">
+					Sponsor: Mrs. Annette Flores (Room 1620)<br>Officers:<br>&nbsp&nbsp President: Valeria Jimenez<br>&nbsp&nbsp Vice President: Luna Ayala <br>&nbsp&nbsp Secretary: My Boi Brian<br>&nbsp&nbsp Treasurer: Achutha Srinivasan<br>&nbsp&nbsp Historian: Michelle Yamada
+					<br>Requirements: <br>&nbsp&nbsp -&nbsp 3.75 GPA or higher <br>&nbsp&nbsp -&nbsp Have at least 3 Spanish credits
+				</font></p>
+			</div>
+			<br>
 		</div>
 
 		<div class="id" style="">Latest Meeting Notes
