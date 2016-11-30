@@ -10,21 +10,23 @@
 		<div class="box" style="">
 			<img src="SNHS Logo Black.png" style="width:304px;height:304px;">
 			<h1>Spanish Honor Society</h1>
-			<a id="displayText" href="javascript:toggleabout();"><button type="button">About</button></a>
-			<a id="displayText" href="javascript:togglevol();"><button type="button">Volunteer Opportunities</button></a>
-			<a href="https://goo.gl/forms/vwUq9YVpoxr7m6Cy1" target="_blank"><button type="button">Log Hours</button></a>
+			<a id="displayText" href="javascript:toggleabout();javascript:hidevol();"><button type="button">About</button></a>
+			<a id="displayText" href="javascript:togglevol();javascript:hideabout();"><button type="button">Volunteer Opportunities</button></a>
+			<a href="https://goo.gl/forms/EafVgk7EQhchh78T2" target="_blank"><button type="button">Log Hours</button></a>
+			<a href="https://goo.gl/psI5Gs" target="_blank"><button type="button">View Hours</button></a>
 		</div>
 
 		<script language="javascript"> 
 			function toggleabout() {
-				var ele = document.getElementById("toggleAbout");
+				var elem = document.getElementById("toggleAbout");
 				var text = document.getElementById("displayText");
-				if(ele.style.display == "block") {
-    				ele.style.display = "none";
+				if(elem.style.display == "block") {
+    				elem.style.display = "none";
   				}
 				else {
-					ele.style.display = "block";
+					elem.style.display = "block";
 				}
+				
 			}
 			function togglevol() {
 				var ele = document.getElementById("toggleVol");
@@ -36,13 +38,41 @@
 					ele.style.display = "block";
 				}
 			} 
+			function hideabout() {
+				var ele = document.getElementById("toggleAbout");
+				var text = document.getElementById("displayText");
+				if(ele.style.display == "block") {
+    				ele.style.display = "none";
+  				}
+			} 
+			function hidevol() {
+				var ele = document.getElementById("toggleVol");
+				var text = document.getElementById("displayText");
+				if(ele.style.display == "block") {
+    				ele.style.display = "none";
+  				}
+			} 
 		</script>
 		<div id="toggleAbout" style="display: none">
 			<div class="id" style="">
-				About SHS
+				James E. Taylor Spanish Honor Society "El Coqui"
 				<p align="left"><font size="3">
-					Sponsor: Mrs. Annette Flores (Room 1620)<br>Officers:<br>&nbsp&nbsp President: Valeria Jimenez<br>&nbsp&nbsp Vice President: Luna Ayala <br>&nbsp&nbsp Secretary: My Boi Brian<br>&nbsp&nbsp Treasurer: Achutha Srinivasan<br>&nbsp&nbsp Historian: Michelle Yamada
-					<br>Requirements: <br>&nbsp&nbsp -&nbsp 3.75 GPA or higher <br>&nbsp&nbsp -&nbsp Have at least 3 Spanish credits
+					Sponsor: Mrs. Annette Flores (Room 1620)<br>
+					Officers:<br>
+					&nbsp&nbsp President: Valeria Jimenez<br>
+					&nbsp&nbsp Vice President: Luna Ayala <br>
+					&nbsp&nbsp Secretary: My Boi Brian<br>
+					&nbsp&nbsp Treasurer: Achutha Srinivasan<br>
+					&nbsp&nbsp Historian: Michelle Yamada<br>
+					Contact:<br>
+					&nbsp&nbsp Facebook: THS Spanish Honor Society 16-17<br>
+					&nbsp&nbsp Instagram: @taylorshs<br>
+					&nbsp&nbsp Remind 101: @elcoqui to 81010<br>
+					&nbsp&nbsp Email: jetshselcoqui@gmail.com<br>
+					Requirements:<br>
+					&nbsp&nbsp -&nbsp 3.75 GPA or higher<br>
+					&nbsp&nbsp -&nbsp Have at least 3 Spanish credits<br>
+					&nbsp&nbsp -&nbsp Complete 25 volunteer hours per year
 				</font></p>
 			</div>
 			<br>
@@ -50,7 +80,7 @@
 
 		<div id="toggleVol" style="display: none">
 			<div class="id" style="">
-				<iframe width="100%" height="100%" src="https://docs.google.com/spreadsheets/d/1C6-h6OS_IRe82abnkOJM7Y09mLeOHd7h_VSWZUgIL3w/pubhtml?widget=true&amp;headers=false"></iframe>
+				<iframe width="100%" height="300px" src="https://docs.google.com/spreadsheets/d/1C6-h6OS_IRe82abnkOJM7Y09mLeOHd7h_VSWZUgIL3w/pubhtml?widget=true&amp;headers=false"></iframe>
 			</div>
 			<br>
 		</div>
