@@ -1,104 +1,208 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Taylor SHS</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" href="file:///Users/mia/Desktop/SHS%20Website/logo.jpg" />
-</head>
-<body>
-	<center>
-		<div class="box" style="">
-			<img src="SNHS Logo Black.png" style="width:304px;height:304px;">
-			<h1>Spanish Honor Society</h1>
-			<a id="displayText" href="javascript:toggleabout();javascript:hidevol();"><button type="button">About</button></a>
-			<a id="displayText" href="javascript:togglevol();javascript:hideabout();"><button type="button">Volunteer Opportunities</button></a>
-			<a href="https://goo.gl/forms/EafVgk7EQhchh78T2" target="_blank"><button type="button">Submit Hours</button></a>
-			<a href="https://goo.gl/psI5Gs" target="_blank"><button type="button">View Hours</button></a>
-		</div>
+<html lang="en">
+  <head>
+    <title>Erase - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
 
-		<script language="javascript"> 
-			function toggleabout() {
-				var elem = document.getElementById("toggleAbout");
-				var text = document.getElementById("displayText");
-				if(elem.style.display == "block") {
-    				elem.style.display = "none";
-  				}
-				else {
-					elem.style.display = "block";
-				}
-				
-			}
-			function togglevol() {
-				var ele = document.getElementById("toggleVol");
-				var text = document.getElementById("displayText");
-				if(ele.style.display == "block") {
-    				ele.style.display = "none";
-  				}
-				else {
-					ele.style.display = "block";
-				}
-			} 
-			function hideabout() {
-				var ele = document.getElementById("toggleAbout");
-				var text = document.getElementById("displayText");
-				if(ele.style.display == "block") {
-    				ele.style.display = "none";
-  				}
-			} 
-			function hidevol() {
-				var ele = document.getElementById("toggleVol");
-				var text = document.getElementById("displayText");
-				if(ele.style.display == "block") {
-    				ele.style.display = "none";
-  				}
-			} 
-		</script>
-		<div id="toggleAbout" style="display: none">
-			<div class="id" style="">
-				James E. Taylor Spanish Honor Society "El Coqui"
-				<p align="left"><font size="3">
-					Sponsor: Mrs. Annette Flores (Room 1620)<br>
-					Officers:<br>
-					&nbsp&nbsp President: Valeria Jimenez<br>
-					&nbsp&nbsp Vice President: Luna Ayala <br>
-					&nbsp&nbsp Secretary: Brian Cheung<br>
-					&nbsp&nbsp Treasurer: Achutha Srinivasan<br>
-					&nbsp&nbsp Historian: Michelle Yamada<br>
-					Contact:<br>
-					&nbsp&nbsp Facebook: THS Spanish Honor Society 16-17<br>
-					&nbsp&nbsp Instagram: @taylorshs<br>
-					&nbsp&nbsp Remind 101: @elcoqui to 81010<br>
-					&nbsp&nbsp Email: jetshselcoqui@gmail.com<br>
-					Requirements:<br>
-					&nbsp&nbsp -&nbsp 3.75 GPA or higher<br>
-					&nbsp&nbsp -&nbsp Have at least 3 Spanish credits<br>
-					&nbsp&nbsp -&nbsp Complete 25 volunteer hours per year
-				</font></p>
-			</div>
-			<br>
-		</div>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-		<div id="toggleVol" style="display: none">
-			<div class="id" style="">
-				<iframe width="100%" height="300px" src="https://docs.google.com/spreadsheets/d/1C6-h6OS_IRe82abnkOJM7Y09mLeOHd7h_VSWZUgIL3w/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>
-			<br>
-		</div>
+    <link rel="stylesheet" href="css/aos.css">
 
-		<div class="id" style="">Latest Meeting Notes
-				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6xxpldy4RxVoCCC_iSNWdLCOpmLe9JztudQqrOFzY8Wrlw7Fs4ighpra1pFJDY01qm8MEUbfS5cEl/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="500px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br>
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-		</div><br>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-		<div class="id" style="">Remind Feed
-				<script src="https://widgets.remind.com/iframe.js?token=1fd9a9a04eb0013463de0242ac110004&join=true"></script>
-				 
-		</div><br>
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-		
-		<font size="3"><p align="right">Created by Mia Sturzu &nbsp</font></p>
-		</div>
-	</center>
+    <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url(images/bg_3.jpg);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Erase</a></h1>
+              <ul>
+                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="colorlib-page">
 
-</body>
+      <section class="hero-wrap js-fullheight">
+	      <div class="container-fluid px-0">
+	        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+	          <div class="col-md-12 ftco-animate text-center">
+	          	<div class="desc">
+	          		<span class="subheading">The Harvard Lampoon</span>
+		            <p style = "padding: 5em"><img src="images/ibis.svg" height="320"/></p>
+		            <span class="subheading-2">Issue 24</span>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+
+	    <section class="ftco-section ftco-no-pb ftco-no-pt">
+	    	<div class="container-fluid px-0">
+	    		<div class="row no-gutters">
+	    			<div class="col-md-12 blog-wrap bg-darken">
+	    				<div class="row no-gutters align-items-center">
+	    					<img src="images/cover.jpg" width=100%/>
+
+	    				</div>
+	    			</div>
+	    			<div class="col-md-12 blog-wrap">
+	    				<div class="row no-gutters align-items-center">
+	    						<div class="text p-md-5 p-4 ftco-animate">
+	    							<h2 class="mb-4"><a id= "top-article-1" >The Trial of The Decade 	    							<div class="position pl-3">
+	    									<h5 class="mb-0">MMM '20 <br/></h5>
+	    							</div></a></h2>
+
+	    							<p> Frankly, it seemed certain that Marco would get lunch detention. Frank Lee, our principal, along with the entire student body, literally witnessed Marco throw the bag of flaming poop at Mrs. Pompeo during the morning assembly. But much like a carnival worker who knows how to operate the jaws of life when a ride malfunctions, sandwiching a child onto the tracks, I knew how to get people off. And luckily, Marco knew just where to find me.<br /><div id="myDIV">
+“Come in and close the door. I don’t pay to heat the hallway,” I snarl at him.<br />“This is your office? I didn’t expect it to be-”<br />“To be what? The women’s locker room? I’m not gonna say it again. Close the door and sit down.”<br />“I’m not comfortable being here, man. There’s tons of girls here. P.E. meets this period.”<br />“Jesus Marco, they don’t notice us.”<br />“They’re all staring at you and yelling at us to get out, dude.”<br />“Fine. We can meet in my conference room. Let’s hurry. Your trial with Principal Lee is next period.”<br />Things were off to a terrible start. This kid clearly didn’t have the charisma or name to weasel his way out of the grip of justice. He attempted to plead his case to me on the walk over to my conference room. <br />“Keep your mouth shut until we’re in the room. You have no idea who the prosecution will call as a witness. Mrs. Pompeo could have ears all over this hallway.”<br />“Hey as my lawyer aren’t you supposed to know who the witnesses are going to be?”<br />“I like to keep the element of surprise on my side. We will both find out together during the trial. We’re here.”<br />“You’re kidding. This is the conference room? But it’s the-”<br />“The Teacher’s Locker Room. That’s right.”<br />I questioned Marco brutally for the remaining 30 minutes of the period. I came at him from every angle. “Did you throw the poop?! How did you throw the poop?! Is your name Marco?!” That sort of thing. Finally, I thought we might have built a case. If Marco was just able to somehow cram himself into a tiny jar, he could claim that it would be impossible for him to have thrown the poop because he was in a tiny little jar. We stopped outside Principal Lee’s door.<br />“Remember our defense. It’s airtight. All we can do now for your sake, Marco, is pray that the scales of justice were made in Mexico. They’ll tilt in favor of one of their descendents.”<br />“I promise you, dude. My family is Italian.”<br />“My apologies–hecho en Mexico,” I said, cutting him off. <br />“Ah hello Marco,” said Principal Lee. “And you, unnamed lawyer kid, you’re not really supposed to be here but this’ll be fast so I suppose you can stay. Marco did you throw the poop?”<br />“Yes.”<br />“Ok. I’m afraid I’ll have to give you lunch detention.”<br />“Ehem. Sidebar, Marco. Despite what I promised earlier, I actually do get paid whether we win or lose the trial.”<br />We started towards the door, my head held high, Marco crying about something or other. <br />“Oh and one more thing, Marco,” Principal Lee said. “Coach Stevens told me you missed P.E. today and so I’m afraid-”<br />“Another day of lunch detention?” Marco choked out through tears.<br />“Death. Alright you two boys run along. The hangman will send for you next period Marco.”
+</div>
+
+	    							</p>
+	    							<p class="mb-0 mt-4"><a onclick="myFunction(); changeText();" href="#top-article-1" class="btn btn-primary" id="myButton2" ><span class="ion-ios-arrow-down"></a></p>
+	    						</div>
+	    					<!-- </div> -->
+	    				</div>
+	    			</div>
+
+	    			<div class="col-md-12 blog-wrap bg-darken">
+	    				<div class="row no-gutters align-items-center">
+	    					<!-- <div class="col-md-6"> -->
+	    						<div class="text p-md-5 p-4 ftco-animate">
+	    							<h2 class="mb-4"><font color="white">Application</font><div class="position pl-3">
+	    									<h5 class="mb-0"><font color="white">EBC '22 <br/></font></h5>
+	    
+	    								</div></a></h2>
+
+	    								
+	    							<p>Hey Angel-<br />Thanks for letting me read your college essay! I’ve left a few comments below.<br />Love, Dad<br /><br />-When you say “struggle,” I would replace it with a more positive word, like “character development.”<br />-Add some more context to the second paragraph. Right now, it looks like I abandoned you at the water park, which I would only do if there was a work emergency. And there was. I found that out after I got home.<br />-This “my father” character sounds like a real jerk. Maybe use a different name? Any other name. Like “family member” or “paternal figure.”<br />-That’s not how I remember your near-drowning.<br />-I was drinking diet coke when I came to pick you up. I remember because the nurse said no outside drinks.<br />-Be sure to watch your verb tenses.<br />-In hindsight, “sink or swim” does sound a bit harsh.<br />-Line 25. Find a way to spin this—for example, you now know how to perform CPR on yourself.<br />-In my defense, I could only save one of you, and your brother can’t tread water.<br />-I had no idea the therapist we got you was for your aquaphobia. I thought it was because you were having teen troubles.<br />-There’s a spelling error in “attempted emancipation.”<br />-So… all those water polo games… our father-daughter synchronized diving routines… our family vacation to Venice? I am so sorry.<br />-Beautiful conclusion. Did you mean what you said about not being on speaking terms?</p>
+	    							<p class="mb-0 mt-4"><a href="#" class="btn btn-primary"><span class="ion-ios-arrow-down"></span></a></p>
+	    						</div>
+	    					<!-- </div> -->
+	    				</div>
+	    			</div>
+	    			<div class="col-md-12 blog-wrap">
+	    				<div class="row no-gutters align-items-center">
+	    					<div class="col-md-6 img js-fullheight" style="background-image: url(images/SESH-lusitania.png);">
+	    						
+	    					</div>
+	    					<div class="col-md-6">
+	    						<div class="text p-md-5 p-4 ftco-animate">
+	    							<h2 class="mb-4"><a href="blog-single.html">Lusitania</a></h2>
+	    							<p><font size = 2>It isn’t always easy growing up when your dad owns the RMS Lusitania.<br /> <br />-Do we have to go to the Lusitania every weekend, dad? It’s not like it’s going anywhere.<br />-Just because it’s at the bottom of the ocean doesn’t mean we can’t be proud of it, son.<br />-But the big dance is on Saturday!<br />-Tell you what. If you salvage twenty copper pipes from the aft section, we can go to the movies after.<br />-Dad? The other kids keep making fun of my diving suit.<br />-Hah! I’d like to see the ‘other kids’ survive this level of atmosphere pressure.<br />-They said you’re just a crazy man who believes in crazy stories.<br />-Listen, kiddo. Whenever someone makes fun of you like that, all you have to do is stand up straight, look them in the eye, and show them these photos proving the wreck was caused by a British depth charge.<br />-But I thought the Lusitania was sunk by a U-Boat?<br />-Oh, son. That’s exactly what the Allies would like you to think.<br />-Dad, is it normal for a boy to… like another boy?<br />-Giant squid! Stay perfectly still.</font></p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    			
+
+	    			
+	    		</div>
+	    	</div>
+	    </section>
+
+      
+      <footer class="ftco-footer ftco-section img">
+	    	<div class="overlay"></div>
+	      <div class="container">
+	        <div class="row mb-5">
+	          <div class="col-lg-3">
+	            <div class="ftco-footer-widget mb-4">
+	              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+	                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+	                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+	                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+	              </ul>
+	            </div>
+	          </div>
+	        </div>
+	    </footer>
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+    </div>
+
+<script type="text/javascript">
+	myFunction();
+	function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    // document.getElementById("myButton2").innnerHTML= "Less";
+  } else {
+    x.style.display = "none";
+    // document.getElementById("myButton2").innnerHTML= "More";
+  }
+}
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+
+
+</script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
 </html>
